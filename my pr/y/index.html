@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class= "header-title">“Простейшие математические операции”</h1>
+
+</div>
+<aside class="side-bar">
+    <ul>
+        <li class="me<nu">
+            <button class="but" onclick="sum()">Sum</button>
+        </li>
+        <li class="menu">
+            <button class="but" onclick="multiplicator()">Multiplicator</button> 
+        </li>
+        <li class="menu">
+            <button class="but" onclick="squa()">Square equation</button>
+        </li>
+    </ul>
+
+</aside>
+    
+
+<main class="main">
+    <h2>Сумма двух чисел</h2>
+    <form class="form">
+        
+        <br><br><br>
+       <label class="lab">Enter a: <input  type="number" name="a_value" id="a-val"></label>
+       <br><br><br>
+       <label class="lab">Enter b: <input type="number" name="b_value" id="b-val"></label>
+       <br><br><br>
+       <label class="lab">Enter c : <input type="number" name="c_value" id="c-val"></label>
+       <br>
+       <br>
+       <button class="but" onclick="sum()">Рассчитать</button>
+   </form>
+   
+   <div class="result" ><h2>Result :</h2>
+    
+   
+    <h2 id="out">    </h2>
+
+   </div>
+   
+  <!-- <div class="lab" >Result 2 (for Square equation)
+   
+    <p  id="outs">    </p>
+
+   </div>-->
+   
+</main>
+
+
+<script src="1.js"></script>
+
+    
+
+
+</body>
+</html>
